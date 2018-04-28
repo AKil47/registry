@@ -127,6 +127,20 @@
       },
       "version": "4.3.4"
     },
+    "bitvise-ssh": {
+      "installer": {
+        "kind": "custom",
+        "options": {
+          "arguments": [
+            "{{.installer}}",
+            "/acceptEULA"
+          ],
+          "extension": "exe"
+        },
+        "x86": "https://dl.bitvise.com/BvSshClient-Inst.exe"
+      },
+      "version": 7.39
+    },
     "bitpay": {
       "installer": {
         "kind": "innosetup",
